@@ -66,3 +66,15 @@ A instalação no macOS normalmente é bem rápida para quem está habituado(a) 
 3 - Feche o Intellij Idea, vá para a linha de comandos e navegue até uma pasta qualquer da sua máquina, na qual você deseja criar um projeto Flutter. Feito isso, dê ao Flutter o comando flutter create my_app.
 
 4 - Abra a pasta my_app com o Intellij Idea e verifique se o projeto foi reconhecido como um projeto Dart/Flutter e se é possível pressionar o botão de play na parte superior da tela. Caso seja possível, o Flutter vai rodar o seu aplicativo no emulador Android.
+
+
+# Android studio
+1 - Habilite Android SDK Command-line Tools
+    - No projeto onde foi criado o flutter
+    - rode o comando flutter doctor para ver o que está faltando.
+2 - Atualize o android SDK build.
+3 - no adv, la em cima atualizar plataform-tools-adv.
+4 - Atualize Android SDK Plataform-Tools.
+5 - rode o comando "flutter doctor --android-licenses" dentro do projeto para criar as licensas necessário, via linha de comando.
+6 rode o comando flutter run --enable-software-rendering caso necessário apra ele renderizar o aplicativo.
+
