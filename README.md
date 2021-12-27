@@ -69,12 +69,17 @@ A instalação no macOS normalmente é bem rápida para quem está habituado(a) 
 
 
 # Android studio
-1 - Habilite Android SDK Command-line Tools
+1 - Habilite "Android SDK Command-line Tools"
     - No projeto onde foi criado o flutter
-    - rode o comando flutter doctor para ver o que está faltando.
+    - rode o comando "flutter doctor" para ver o que está faltando.
+
 2 - Atualize o android SDK build.
-3 - no adv, la em cima atualizar plataform-tools-adv.
+
+3 - no adv, la em cima atualizar "plataform-tools-adv".
+
 4 - Atualize Android SDK Plataform-Tools.
+
 5 - rode o comando "flutter doctor --android-licenses" dentro do projeto para criar as licensas necessário, via linha de comando.
-6 rode o comando flutter run --enable-software-rendering caso necessário apra ele renderizar o aplicativo.
+
+6 rode o comando "flutter run --enable-software-rendering" caso necessário apra ele renderizar o aplicativo.
 
